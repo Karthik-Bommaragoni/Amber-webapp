@@ -1,0 +1,55 @@
+.hero-container {
+    height: 80vh;
+    background: url("https://images.unsplash.com/photo-1505691938895-1758d7feb511") no-repeat center/cover;
+    position: relative;
+}
+
+/* Dark overlay */
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.overlay p {
+    margin: 10px 0 20px;
+    font-size: 18px;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    background: white;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 60%;
+    max-width: 600px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+}
